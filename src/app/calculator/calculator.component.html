@@ -1,0 +1,26 @@
+<div class="calculator">
+	<div class="screen">{{displayValue}}</div>
+	<div class="buttons">
+		
+		<button (click)="input('1')">1</button>
+		<button (click)="input('2')">2</button>
+		<button (click)="input('3')">3</button>
+
+		<button (click)="clear()">C</button>
+
+		<button (click)="input('4')">4</button>
+		<button (click)="input('5')">5</button>
+		<button (click)="input('6')">6</button>
+
+		<button (click)="add()">+</button>
+
+		<button (click)="input('7')">7</button>
+		<button (click)="input('8')">8</button>
+		<button (click)="input('9')">9</button>
+		
+		<button (click)="subtract()">-</button>
+		<button (click)="multiply()">*</button>
+		<button (click)="divide()">/</button>
+		<button (click)="calculate()">=</button>
+	</div>
+</div>
